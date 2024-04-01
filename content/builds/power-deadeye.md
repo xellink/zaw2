@@ -44,7 +44,7 @@ Quickness Variant
 
 ## Trait Alternatives
 1. Practiced Tolerance - For fights where power cleave/pierce is detrimental, you should also take {{ trait(id="1272") }} (eg. Soulless Horror). You can freely switch to daggers if you take this trait.
-2. Quickness Variant – Take {{ trait(id="1167"), {{ trait(id="2136") and {{ trait(id="2146"). {{ skill(id="41372") }} is required for full quickness uptime. 
+2. Quickness Variant – Take {{ trait(id="1167") }}, {{ trait(id="2136") }} and {{ trait(id="2146") }}. {{ skill(id="41372") }} is required for full quickness uptime. 
 
 ## Rotation
 Precasts - {{ skill(id="13082") }} (use on refresh), {{ skill(id="13057") }} (bring on fights with long damage downtimes)
