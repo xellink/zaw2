@@ -1,5 +1,5 @@
 +++
-title = "Quickness Power Harbinger"
+title = "Quickness Power Harbinger (27.9k)"
 description = "A slight variation of Power Harbinger that provides Quickness using the same gear"
 date = 2024-05-05
 draft = false
@@ -91,3 +91,7 @@ If you find yourself being forced out of Shroud early, just carry on and do Out 
 ## Video
 
 {{ youtube(id="7lZ-3IN5MeY") }}
+
+## Build demo in "high" level play
+
+{{ youtube(id="eFDH37T6_sc") }}

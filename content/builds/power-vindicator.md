@@ -1,5 +1,5 @@
 +++
-title = "Power Vindicator"
+title = "Power Vindicator (33.6k)"
 description = "This is a pretty foundational build for Revenant. Simple, solid and focused."
 date = 2024-03-08
 draft = false
@@ -40,9 +40,12 @@ This is a pretty foundational build for Revenant. Simple, solid and focused.
 
 Power Vindicator can be very easy to play, yet deliver respectable results by following the steps below:
 
-{{ skill(id="28134") }} Swap your legend when it is off cooldown or when you run out of energy, it doesn't matter much, and use
-{{ skill(id="27107") }} while in Shiro, and
-{{ skill(id="26557") }} while in Jalis. You can bind both these skills to the same button to reduce mistakes.
+Swap your legend when it is off cooldown or when you run out of energy, it doesn't matter much, and use:
+
+1. {{ skill(id="27107") }} while in {{ skill(id="28134") }}
+1. {{ skill(id="26557") }} while in {{ skill(id="28419") }}
+
+You can bind both these skills to the same button to reduce mistakes.
 
 Use off cooldown in following priority:
 
