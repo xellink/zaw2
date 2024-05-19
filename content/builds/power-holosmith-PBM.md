@@ -1,5 +1,5 @@
 +++
-title = "Power Holosmith"
+title = "Power Holosmith PBM"
 description = "A hammer priority-based build, with two different priority sets (in/out of forge), this build heats up fast."
 date = 2024-03-03
 draft = false
@@ -7,7 +7,8 @@ template = "build.html"
 
 
 [taxonomies]
-tags = ["power","engineer","holosmith","pof","lowphys", "lowrep"]
+categories = ["group"]
+tags = ["power","engineer","holosmith","soto","lowphys", "lowrep"]
 authors = ["scooby"]
 
 [extra]
@@ -16,7 +17,7 @@ tagline = "Is a photon forge like a particle accelerator? Let smash some Adams."
 keywords = "Guild Wars 2, GW2, LI, Holosmith"
 toc = true
 spec = "holosmith"
-balance = "March 2024"
+balance = "April 2024"
 +++
 
 A hammer priority-based build, with two different priority sets (in/out of forge), this build heats up fast.

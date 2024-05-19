@@ -1,64 +1,126 @@
 +++
-title = "Shortbow Soulbeast"
-description = "This low-medium intensity condi Soulbeast build uses shortbow, flanking and zero-animation utilities to stay effective."
-date = 2022-04-10
+title = "Barbed Arrows"
+description = "This build is designed around the shortbow Auto Attack being empowered by non-interruptible skills without cast time. "
+date = 2024-04-16
+updated = 2024-05-08
+draft = false
 template = "build.html"
 
 [taxonomies]
-tags = ["condi","ranger","soulbeast","pof","lowcog","lowphys","lowrep"]
-authors = ["mukluk"]
+categories = ["group"]
+tags = ["condi","ranger","soulbeast","pof","lowcog","lowrep"]
+authors = ["xellink"]
 
 [extra]
 series = "ranger"
-tagline =  "'I know animals more gallant than the African warthog, but none more courageous [...] His eyes are small and lightless and capable of but one expression - suspicion. What he does not understand, he suspects, and what he suspects, he fights.'\n\n-- Beryl Markham"
-keywords = "Guild Wars 2, GW2, LI, Soulbeast"
+tagline = "Condi Shortbow Ranger"
+keywords = "Guild Wars 2, GW2, LI, soulbeast"
 toc = true
 spec = "soulbeast"
-balance = "March 2022"
+balance = "April 2024"
 +++
 
-## Gearing
+The purpose of writing this guide is to provide a no-weapon swap method to play a ranged PVE soulbeast while easily hitting the 70% benchmark with minimal effort. This build is low cognition, has few repetitions but has a relatively high APM. The skills do not require specific timing and having extra hard CC (total of 3) in the build allows flexible upkeep of {{ trait(id="2127") }}, which has a rather tight timing on other builds. The auto-attack of the build provides sufficient hits to proc bleeding and the skills that empower the shortbow hits do not interrupt the attack rotation. The way the bows are empowered with bleeding stacks is inspired by the Guild Wars 1 skill [Barbed Arrows](https://wiki.guildwars.com/wiki/Barbed_Arrows).
 
-- Full Viper armour
-- Runes of the Krait
-- Shortbow Earth/Bursting
 
----
+## Gearing and Consumables
+**Equipment**
+- Full Vipers
+- Shortbow
+
+**Weapon Swap**
+Weapon swap is optional
+1. Dagger/Dagger
+2. Dagger/Torch
+3. Axe/Dagger
+4. Dagger/Axe 
+*Dagger/Axe (Axe 4 can proc {{ trait(id="2127") }}) runs on a similar concept and will do similar damage on a hybrid build. However, a ranged build is simpler to play.*
+
+Optimised Viper's Loadout
+[GW2Skills Link](http://gw2skills.net/editor/?POQAUlZUw+YSMKmJWaXXP3Umqdn5B-DSJYmRB/YEPBCVAGOGAQFA-e)
+
+
+**Runes**
+- Superior Rune of the Afflicted
+
+**Sigils**
+- Superior Sigil of Malice
+- Superior Sigil of Earth
+
+**Relic**
+- Relic of the Fractal
+
+**Food**
+  - Salsa Topped Veggie Flatbread
+  - Koi Cakes (budget alternative)
+
+**Utility**
+  - Toxic Focusing Crystal
+
 
 ## Build
+Condi DPS
+{{ chatlink(code="[&DQQeLSAXNy55AHgAvwAAAOkWAAAbAAAALhYAADQDEz8AAAAAAAAAAAAAAAA=]") }}
 
-{{ chatlink(code="[&DQQeLSE3Nz6hAAAAvwAAAOkWAACsAQAAwAAAAD0lAAAAAAAAAAAAAAAAAAA=]") }}
+**Trait Alternatives**
+The equipment stats are fairly similar to the [SnowCrow's Build](https://snowcrows.com/builds/raids/ranger/condition-soulbeast) with selection of different traits. This is a slight step up in difficulty.
 
----
 
-## OW Variant
+## Rotation and Utilities
+**DPS Rotation**
+Stay merged at all times. 
+1. Early Precast - {{ skill(id="12476") }}
+2. Pre-battle - {{ skill(id="45717") }} + {{ skill(id="12537") }} + {{ skill(id="40498") }} + {{ skill(id="45479") }}
+3. General Rotation - Use all non-healing skills on cooldown except F1
 
-For Open World, this Beastmastery variant works well.
+**Crowd Control rotation**
+1. You have decent CC by just using {{ skill(id="12508") }} (Shortbow 4)
+2. You have many other CC skills littered in your weapon and utility kit including the ones used to upkeep {{ trait(id="2127") }} (see below). 
+3. You can precast {{ skill(id="12537") }} for additional CC just before the CC phase of an encounter.
+4. Bringing Warthog can add significant amount of CC for a small damage loss.
 
-Template code:
 
-{{ chatlink(code="[&DQQeLSA+Nz6hAAAAvwAAAOkWAACsAQAAwAAAAD0lAAAAAAAAAAAAAAAAAAA=]") }}
+**Sustainability**
+1. You may opt to take {{ skill(id="12489") }} for better condi cleanse
+2. {{ skill(id="12517") }} (Shortbow 3) is an evade that does a step back. This is useful for bosses with pull mechanics.
+3. If you need an extra heal, you may swap your pet to Jungle Stalker for {{ skill(id="44626") }}
 
-Pets: Juvenile Fanged Iboga / Juvenile Warthog<div data-armory-embed='skills' data-armory-ids='12489,12537,40498,12491,12580'></div><div data-armory-embed='specializations' data-armory-ids='30,32,55' data-armory-30-traits='1069,1846,1912' data-armory-32-traits='1072,970,1066' data-armory-55-traits='2071,2161,2143'></div>
 
-## Crowd Control
+## Optimisation
+**Twice as Vicious**
 
-If you have CC needs (blue breakbars), and can accommodate it, consider the following options.
+Spread out {{ skill(id="12537") }}, {{ skill(id="40588") }} and {{ skill(id="12508") }} to maximise {{ trait(id="2127") }} uptime. You may wish to delay using {{ skill(id="12508") }} as it is a potent CC skill.
 
-- Concussion Shot <span data-aw2-key="5" data-aw2-skill="12508"></span>
-- Warthog <span data-aw2-key="F2" data-aw2-skill="46432"></span>
-- Warthog Unmerge <span data-aw2-key="F5" data-aw2-skill="43014"></span>, wait for attack, Remerge <span data-aw2-key="F5" data-aw2-skill="42944"></span> when able
 
-## Notes
+**Dodging**
+1. Where dodging is necessary, you may delay {{ skill(id="12517") }} by 4s after the dodge to have better uptime of {{ trait(id="1912") }}. 
+2. It is better to use {{ skill(id="12517") }} to dodge once if you don't need to dodge twice for better DPS uptime. 
 
-**Important: this build has significant flanking bonuses. This nearly doubles damage if you're able to position to attack from the side or rear.**
+**Rain of spikes**
+On a boss with multiple adds, if you can position yourself within the boss hitbox, rain of spikes can hit the boss more than the usual number of times, making this skill worthwhile to include in your rotation. 
 
-1. Merge with pet <span data-aw2-key="F5" data-aw2-skill="42944"></span>, Autoattack, prioritizing flanking position
-2. As in 1, + <span data-aw2-key="2" data-aw2-skill="12468"></span>, <span data-aw2-key="4" data-aw2-skill="12507"></span>,  <span data-aw2-key="F1" data-aw2-skill="41406"></span> off cooldown
-3. As in 2, + <span data-aw2-key="7" data-aw2-skill="12537"></span>, <span data-aw2-key="8" data-aw2-skill="40498"></span> off cooldown
+**Raid Ready**
+1. W1 Gorseval - Immobilise with {{ skill(id="12580") }} during the split phase.
 
-_Note: these are animation-free utilities and share cooldown timings. Position them next to each other on the skill bar, and hit both keys at the same time_
+2. W2 Slothasor - Jaguar is useful for {{ skill(id="43375") }} to pull slublings. Make sure to point bow away from ally slubs!
+3. W2 Bandit Trio - The range, self sustainability and high amounts of CC allows this build to do mortars.
+4. W3 Escort - For backwarg, bring {{ skill(id="12580") }} and use {{ skill(id="12507") }} to immobilise. For frontwarg, black widow/jungle spider is useful for {{ skill(id="43375") }} to pull white mantle and {{ skill(id="44097") }} provides meaningul immobilise uptime on the frontwarg.
+5. W4 Cairn - This build does superb on Cairn, no adjustment is necessary, though you may wish to use {{ skill(id="31914") }} if you are baiting red circles for the group. Also see dodge section above as you will very often be dodging to move if celestial dash is unavailable.
+6. W4 Samarog - {{ skill(id="12476") }} can be used to launch Rigom, although the pushback from longbow and using a power build is preferred.
+7. W5 Dhuum - Use {{ skill(id="12517") }} during the suck phase.
+8. W6 This build is excellent on Twin Largos as it is.
+9. This build can be used to pylon kite. Camp shortbow with Juvenile Hawk. Switch to sword. You movement skills are {{ skill(id="12521") }} (catch) and {{ skill(id="44991") }}(return). Take note that unlike other kiting classes, your return skill cannot survive dashing through fires.
 
-Elite skills are flexible and not particularly effective in this build. Generally choose Strength of the Pack (useful if alone), or Entangle for a bit of extra dps.
 
-You can unmerge with your pet, and use it to tank for you. If your pet is about to die, merge and unmerge to refresh its health.
+
+
+## Videos
+I have benched the build with mostly the above mentioned gear with no infusions. Budget food and budget utilities were used.
+
+**DPS benchmark (27.7k solo, 30k with allies)**
+{{ youtube(id="a2uqFQEScf0") }}
+
+**Pylon Kiting**
+*Courtesy of Gwen The Pretzel*
+{{ youtube(id="Jto8eANm0sg") }}
+

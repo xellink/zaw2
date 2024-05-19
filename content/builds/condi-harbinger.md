@@ -7,6 +7,7 @@ template = "build.html"
 
 [taxonomies]
 tags = ["condi","necromancer","harbinger","eod","lowcog","lowphys","lowrep"]
+categories = [ "group", "solo" ]
 authors = ["berdandy"]
 
 [extra]
@@ -51,7 +52,7 @@ With buckets of blood, torment and poison, this bursty condi build can take down
 
 ---
 
-{{ chatlink(code="CHATLINK") }} TODO
+`TODO CHATLINK`
 
 ---
 

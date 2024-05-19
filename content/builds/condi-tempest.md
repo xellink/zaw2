@@ -7,6 +7,7 @@ template = "build.html"
 
 
 [taxonomies]
+categories = ["group"]
 tags = ["condi","elementalist","tempest","hot","lowcog"]
 authors = ["scooby"]
 
@@ -16,7 +17,7 @@ tagline =  "'Burn, baby, burn!'"
 keywords = "Guild Wars 2, GW2, LI, Tempest"
 toc = true
 spec = "tempest"
-balance = "March 2024"
+balance = "April 2024"
 +++
 
 A brand new spicy Fire Tempest build is great for roasted golems and friendly raid barbeques. Bring your friends, invite your neighbours.
@@ -52,3 +53,6 @@ This build isn't even at its peak potential yet. You can't actually apply enough
 
 {{ youtube(id="SzgBuiV-zHw") }}
 
+## Build demo in "high" level play
+
+{{ youtube(id="Fa0yf0lHUTI") }}

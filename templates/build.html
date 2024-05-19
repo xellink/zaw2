@@ -203,11 +203,17 @@
 		<div class="blockdiv">
 		  <a class="b s150" href="#">{{ macros::translate(key="Index", default="Index", i18n=i18n) }}</a>
 		  {%- for h in toc %}
+          {%- if h.level > 2 -%}
+			{%- continue -%}
+		  {%- endif -%}
 		  <div>
 			<a href="#{{h.id | safe}}">{{ h.title }}</a>
 		  </div>
 		  {%- if h.children %}
 		  {%- for h2 in h.children %}
+          {%- if h2.level > 2 -%}
+			{%- continue -%}
+		  {%- endif -%}
 		  <div class="hpad">
 			<a href="#{{h2.id | safe}}"><small>- {{ h2.title }}</small></a>
 		  </div>
@@ -217,7 +223,7 @@
 		</div>
 
 		{%- if page.extra.balance %}
-		<div class="blockdiv sticky">
+		<div class="blockdiv">
 		  <h2 class="b s150">Balance</h2>
 		  {%- if page.extra.balance == config.extra.balance %}
 			<p style="color: LightGreen;">{{ page.extra.balance }}</p>

@@ -1,13 +1,11 @@
 #do NOT include a trailing slash on the base URL
-# base_url = "https://accessibilitywars.com"
-# base_url = "https://accessibilitywars.github.io/aw2-builds"
 base_url = "https://aw2.help"
 # Usable site directly from disk, Including Search: "/home/jieiku/.dev/abridge/public"
 # Also set index format = "elasticlunr_javascript", and in [extra] uglyurls = true, integrity = false
 # If you use the npm/node script then all you have to do is set offline = true, and everything else is automatic.
 
 title = "Accessibility Wars"
-description = "Low-Intensity Builds for the Guild Wars 2 Community"
+description = "Accessible Builds for the Guild Wars 2 Community"
 theme = "abridge"
 
 default_language = "en"
@@ -16,15 +14,20 @@ minify_html = false # minify subly breaks some markdown
 build_search_index = true
 generate_feed = true
 taxonomies = [
-#    {name = "categories", feed = true},
+    {name = "categories", feed = true},
     {name = "tags", feed = true },
-    {name = "authors", feed = false },
+    {name = "authors", feed = true },
 ]
 
 #feed_filename = "atom.xml"
 #output_dir = "public"
 #ignored_content = ["*.{graphml,xlsx}", "temp.*"]
 #hard_link_static = false # set to true to hard link instead of copying, useful for very large files.
+
+[link_checker]
+internal_level = "error"
+external_level = "warn"
+skip_prefixes = [ "http://127.0.0.1" ]
 
 [search]                # Options specific to elasticlunr search.
 # index format can be: elasticlunr_json or elasticlunr_javascript
@@ -86,8 +89,8 @@ menu = [
     {url = "philosophy", name = "Philosophy", slash = true, blank = false, size="s110"},
     {url = "guides", name = "Guides", slash = true, blank = false, size="s110"},
     {url = "archive", name = "by Date", slash = true, blank = false, size="s110"},
-#    {url = "categories", name = "Categories", slash = true, blank = false, size="s110"},
     {url = "tags", name = "by Tag", slash = true, blank = false, size="s110"},
+    {url = "categories", name = "by Mode", slash = true, blank = false, size="s110"},
 ]
 menu_footer = [
 	{url = "retired", name = "Retired Builds", slash = true, blank = false},
@@ -138,9 +141,9 @@ copyright_override = '© $CURRENT_YEAR $SITE_TITLE • Website content is licens
 ###############################################################################
 
 title_separator = "|"  # Separator between title and title_addition, set as |, -, _, etc
-title_addition = "All LI, All the Time" # a default value for title addition
+title_addition = "All Accessibility, All the Time" # a default value for title addition
 author = "AW2" # Put Your Name here
-keywords = "accessibility wars, accessibility, guild wars 2, gw2, game, fansite, builds, LI, low intensity" # used for the primary site index
+keywords = "accessibility wars, accessibility, accessible, a11y, guild wars 2, gw2, game, fansite, builds, LI, low intensity" # used for the primary site index
 banner = "banner.png" # Used as default image for OpenGraph/Twitter if page specific image is undefined.
 # twitter_meta = "your-user-name" # for SEO: twitter:site and twitter:creator
 # google = "Your Google Site verification code."
@@ -376,4 +379,4 @@ favicon16 = "favicon-16x16.png" # favicon-16x16.png
 #math = false # Recommended setting false, and enable on per page bases instead.
 #math_auto_render = false # Recommended setting false, and enable on per page bases instead.
 
-balance = "March 2024"
+balance = "April 2024"

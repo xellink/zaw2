@@ -23,7 +23,7 @@ Of course, financial contributions are always welcome too, if that's preferred. 
 funding platform based in France. All funds currently go towards development and hosting costs, but we hope to be able to offer
 honorariums to build contributors to recognize their efforts.
 
-Other options such as GitHub Sponsors or Patreon are being considered. Reach out [on discord](/discord) if
+Other options such as GitHub Sponsors or Patreon are being considered. Reach out [on discord](@/discord/_index.md) if
 you prefer one of those options.
 
 # Content how to...
@@ -36,7 +36,7 @@ However, it is built from source code and contributors can make edits and submis
 
 ## Setup
 
-- Sign up for an account on [GitHub](https://github.com/). Feel free to use whatever name you wish. Be aware all your proposed changes will be associated with this name and it will be public.
+- Sign up for an account on [GitHub](https://github.com). Feel free to use whatever name you wish. Be aware all your proposed changes will be associated with this name and it will be public.
 - Familiarize yourself with [basic markdown](https://www.markdownguide.org/basic-syntax/)
 
 ---
@@ -77,9 +77,9 @@ In short:
 1. [install the custom site buider azola](https://github.com/berdandy/azola/releases/latest/)
 1. clone [the source repository](https://github.com/accessibilitywars/zaw2)
 1. run `azola serve`
-1. go to your [http://127.0.0.1:1111](http://127.0.0.1:1111)
+1. go to [http://127.0.0.1:1111](http://127.0.0.1:1111) in your browser
 
-That's basically it.
+That's basically it. It will automatically refresh whenever it detects changes.
 
 ---
 
